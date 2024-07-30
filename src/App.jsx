@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
+import {createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
