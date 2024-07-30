@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
@@ -8,9 +8,9 @@ import Porfolio from './Components/Porfolio/Porfolio'
 
 function App() {
 
-  let router = createBrowserRouter([
+  let router = createHashRouter([
     {
-      path: '', element: <Layout />, children: [
+      path: '/', element: <Layout />, children: [
         { index: true, element: <Home /> },
         { path: '/about', element: <About /> },
         { path: '/portfolio', element: <Porfolio /> },
