@@ -3,7 +3,7 @@
 export default function Porfolio() {
   return (
     <>
-      <div className=" h-auto pt-10 pb-28 z-10">
+      <div className=" h-auto pt-20 pb-28 z-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl text-slate-900 font-bold mt-4 uppercase">portfolio component</h1>
           <div className="mt-4 relative w-56 flex justify-between">
